@@ -9,3 +9,5 @@ The objectives of this project are as follows:
 - Recap my fundamental knowledge in web development.
 - Practice atomic commits and write good commit messages.
 - Build my problem solving and researching skills.
+
+25 March 2026 - Completed the HTML project assignment as per the requirements.
