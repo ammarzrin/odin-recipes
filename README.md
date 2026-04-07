@@ -11,3 +11,4 @@ The objectives of this project are as follows:
 - Build my problem solving and researching skills.
 
 25 March 2026 - Completed the HTML project assignment as per the requirements.
+7 April 2026 - Added some CSS styling for practice.
