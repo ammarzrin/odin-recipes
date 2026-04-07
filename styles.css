@@ -1,0 +1,64 @@
+:root {
+    --primary-bg-color: #F9F8F1;
+    --primary-color: #8A9A5B;
+    --accent-color: #C06C4C;
+    --text-color: #2D2926;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 36px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.home-container {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.home-cards {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    max-width: 200px;
+    padding: 25px;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 900;
+    outline: 2px solid var(--primary-color);
+    background-color: var(--accent-color);
+    color: #2D2926;
+}
+
+.home-cards:hover {
+    background-color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--text-color);
+}
